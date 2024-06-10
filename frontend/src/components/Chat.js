@@ -4,7 +4,7 @@ import axiosInstance from '../components/axiosConfig';
 import io from 'socket.io-client';
 import './Chat.css'; // Import CSS file
 
-const socket = io('http://localhost:5000'); // Ensure this matches your backend URL
+const socket = io('https://chatapp-psi-inky.vercel.app'); // Ensure this matches your backend URL
 
 const Chat = () => {
   const { userId } = useParams();

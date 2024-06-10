@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:5000/api', // Ensure this is correct
+  baseURL: 'https://chatapp-psi-inky.vercel.app/api', // Ensure this is correct
 });
 
 axiosInstance.interceptors.request.use(
